@@ -56,8 +56,8 @@ class ViewerToolbar: UIView {
         btn.backgroundColor = UIColor.black.withAlphaComponent(0.2)
         btn.layer.cornerRadius = btn.frame.height/2
         btn.clipsToBounds = true
-        btn.addTarget(browser, action: #selector(browser?.actionButtonPressed(_:)), for: .touchUpInside)
-        self.addSubview(btn)
+        //btn.addTarget(browser, action: #selector(browser?.actionButtonPressed(_:)), for: .touchUpInside)
+        //self.addSubview(btn)
     }
 }
 
